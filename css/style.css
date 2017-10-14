@@ -4,7 +4,7 @@
 
 }
 body{
-	font-family: sans-serif,'Raleway','Source Sans Pro', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 .header{
     background-image: url(../images/header-bg.jpg);
@@ -33,3 +33,271 @@ body{
     padding-top: 30px;
     text-transform: uppercase;
 }
+.header-text p{
+    color: white;
+    font-size: 17px;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{   
+    background: transparent;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 3px;
+    transition: all 1s;
+
+}
+.btn-download:hover{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.btn-readmore,
+.btn-readmore:focus,
+.btn-readmore:active,
+.btn-readmore:visited
+{   
+    background: transparent;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+
+}
+.btn-readmore:hover{
+    background-color: deepskyblue;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+/*============About us CSS*========================*/
+.choose-us-wrapper{
+    padding-top: 50px;
+}
+.iphone-img {
+    margin-top: 8px;
+}
+.about-us {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.about-us h2{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.about-us p{
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+.about-us h2:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    background-color: deepskyblue;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    margin-left: -30px;
+}
+.why-choose-us{
+    padding-bottom: 50px;
+}
+.why-choose-us h3{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+.why-choose-us p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.choose-us-item {
+    position: relative;
+    padding-left: 80px;
+}
+.choose-us-item i{
+    position: absolute;
+    left: -10px;
+    font-size: 55px;
+    color: deepskyblue;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.choose-us-item h3{
+    text-transform: uppercase;
+    color: black;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 23px;
+}   
+.choose-us-item p{
+    color: black;
+    font-size: 15px;
+    
+}
+/***********testimonials*******************/
+.testimonials{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.testimonial-overlay {
+    background-color: rgba(31 ,31 ,31 ,0.75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 50%;
+    padding: 3px;
+}
+.testimonial-caption {
+    padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+    
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 50px;
+}
+/*********Purchase Now***************/
+.purchase-now{
+    background-color: #1a1a1a;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.purchase-now p{
+    color: #dfdfdf;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+.btn-pruchase-now, .btn-pruchase-now:active, .btn-pruchase-now:focus, .btn-pruchase-now:visited
+{
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    font-size: 18px;
+}
+.btn-pruchase-now:hover {
+    background-color: #1274B1;
+    border-color: #316890;
+}
+/************counter************/
+.counter{
+    background-image: url(../images/counter-bg.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter-overlay{
+    background-color: rgba(0,0,0,0.4);
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.counter-item i{
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.counter-item p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
